@@ -39,7 +39,7 @@ jobs:
         id: go
 
       - name: run Migrations
-        run: make test
+        run: make migrateup
 
       - name: Test
         run: make test
